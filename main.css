@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.banner-section{
+    height: 500px;
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+.portfolio{
+    color: #FFBD24;
+}
+.box-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box-width img{
+    width: 100%;
+}
+
+.short-intro{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.hire-me{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FFCC1A,#FA6D59);
+    color: white;
+}
+
+.biography-section{
+    height: 500px;
+    background-color:rgba(242, 249, 255, 0.363);
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+}
