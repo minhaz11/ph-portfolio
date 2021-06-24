@@ -7,12 +7,20 @@ body{
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
+
+section{
+    margin-bottom: 30px;
+}
 .banner-section{
     height: 500px;
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
-.portfolio{
+.orange-highlight{
     color: #FFBD24;
 }
 .box-width{
@@ -40,7 +48,38 @@ h1{
 
 .biography-section{
     height: 500px;
-    background-color:rgba(242, 249, 255, 0.363);
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-section{
+    height: 500px;
     background-image: url('images/exp-bg.png');
     background-repeat: no-repeat;
+    background-position: left;
+}
+.experience {
+    text-align: center;
+}
+.box--shadow{
+    box-shadow: 10px 10px 30px gray;
+    height: 70%;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato) ;
+    border-image-slice:1 ;
+}
+#intern{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan) ;
+    border-image-slice:1 ;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
 }
